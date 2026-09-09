@@ -43,6 +43,6 @@ models:
 
     bronze: 
       +materialized: table
-      +database: ecom_project
-      +schema: silver_sc
+      +database: UAT
+      +schema: UAT_SC
       
