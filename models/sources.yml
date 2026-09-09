@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: ecom
+    database: ecom_project
+    schema: bronze_sc
+    tables:
+      - name: customers_raw_data
+      - name: inventory_raw_data
+      - name: sales_raw_data
+      - name: service_records_raw_data
